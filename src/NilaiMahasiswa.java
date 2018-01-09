@@ -1,5 +1,5 @@
 
-public class DaftarNilai {
+public class NilaiMahasiswa {
     MataKuliah Matkul;
     String kodeMahasiswa;
     Character nilai;
@@ -8,12 +8,12 @@ public class DaftarNilai {
         return Matkul;
     }
 
-    public DaftarNilai(MataKuliah Matkul, String kodeMahasiswa, Character nilai) {
+    public NilaiMahasiswa(MataKuliah Matkul, String kodeMahasiswa, Character nilai) {
         this.Matkul = Matkul;
         this.kodeMahasiswa = kodeMahasiswa;
         this.nilai = nilai;
     }
-    public DaftarNilai(){
+    public NilaiMahasiswa(){
 
     }
 
