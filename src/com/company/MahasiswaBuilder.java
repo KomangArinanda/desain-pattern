@@ -1,3 +1,7 @@
+package com.company;
+
+import com.company.Model.Mahasiswa;
+
 public class MahasiswaBuilder {
 
     private Mahasiswa mahasiswa;

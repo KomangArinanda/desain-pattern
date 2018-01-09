@@ -1,3 +1,5 @@
+package com.company.Model;
+
 public class Mahasiswa {
     private String nama;
     private String NIM;
@@ -38,7 +40,7 @@ public class Mahasiswa {
 
     @Override
     public String toString() {
-        return "Mahasiswa{" +
+        return "com.company.Model.Mahasiswa{" +
                 "nama='" + nama + '\'' +
                 ", NIM='" + NIM + '\'' +
                 ", tanggalLahir='" + tanggalLahir + '\'' +

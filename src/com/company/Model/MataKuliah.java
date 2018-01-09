@@ -1,3 +1,5 @@
+package com.company.Model;
+
 public class MataKuliah {
     String nama;
     String kodeMatkul;
